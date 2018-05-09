@@ -46,7 +46,7 @@ class App extends React.Component {
     //   error: ''
     // })
     if (city && country){
-      console.log(data)
+      // console.log(data)
       this.setState({
         temperature: data.main.temp,
         city: data.name,
